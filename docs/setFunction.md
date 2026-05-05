@@ -24,7 +24,7 @@
     In the underlying C implementation, this routine sets the function 
     pointer used by `SNESComputeFunction`. The relative decrease in the 
     $L_2$ norm of this residual vector is often used as a convergence 
-    criterion[cite: 87].
+    criterion.
 
     Example
     -------

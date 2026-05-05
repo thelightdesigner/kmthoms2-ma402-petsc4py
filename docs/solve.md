@@ -1,4 +1,4 @@
-    Solve the nonlinear system F(x) = b (or F(x) = 0 if b is None).
+    This function solves the nonlinear system F(x) = b (or F(x) = 0 if b is None).
 
     This triggers the actual Newton-like solver iterations.
 
@@ -16,7 +16,7 @@
     This method handles the high-level logic of the nonlinear solver, 
     including calling the linear solver (KSP) for each Newton step. 
     It will continue until it meets one of the convergence tolerances 
-    or a divergence limit[cite: 350, 353].
+    or a divergence limit.
 
     Example
     -------

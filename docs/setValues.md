@@ -2,7 +2,7 @@
     Insert or add values into certain locations of the matrix.
 
     This is the primary method for populating the Jacobian matrix entries 
-    calculated in your `formJacobian` routine.
+    calculated in the `formJacobian` routine.
 
     Parameters
     ----------
@@ -21,7 +21,7 @@
     -----
     PETSc translates the Python list/array into a contiguous C array of 
     `PetscScalar` types[cite: 101]. After calling this, you MUST call 
-    `assemble()` to begin and end the communication of matrix values[cite: 258].
+    `assemble()` to begin and end the communication of matrix values.
 
     Example
     -------
